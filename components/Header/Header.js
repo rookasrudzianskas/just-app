@@ -22,6 +22,7 @@ const Header = () => {
                     <MaterialCommunityIcons name="bell" size={20} color="white" style={tw`mx-2`}/>
                 </TouchableOpacity>
             </View>
+
         </View>
     );
 };

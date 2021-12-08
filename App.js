@@ -5,7 +5,7 @@ import HomeScreen from "./screens/HomeScreen/Homescreen";
 
 export default function App() {
   return (
-    <View style={styles.container}>
+    <View>
       <HomeScreen />
       <StatusBar style="auto" />
     </View>
@@ -13,10 +13,5 @@ export default function App() {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+
 });
